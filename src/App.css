@@ -1,0 +1,43 @@
+#title,
+#searchBar{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aquamarine
+}
+
+#title{
+  font-weight: lighter;
+}
+header{
+  background-color: #094E1D;
+  border-radius: 100px;
+}
+#searchBar{
+  border-radius: 10px;
+  
+}
+
+.label{
+  padding: .25em;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.list{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img:hover{
+  cursor: pointer;
+  border: 2px dashed grey
+}
+
+#body-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#pokemon-grid{
+  border: 1px dashed grey
+}
